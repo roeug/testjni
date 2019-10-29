@@ -1,0 +1,42 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 16 min SDK version: x86"
+  },
+  {
+    "level": "INFO",
+    "message": "rebuilding JSON D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\x86\\android_gradle_build.json due to:"
+  },
+  {
+    "level": "INFO",
+    "message": "- expected json D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\x86\\android_gradle_build.json file is not present, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- missing previous command file D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\x86\\build_command.txt, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "- command changed from previous, will remove stale json folder"
+  },
+  {
+    "level": "INFO",
+    "message": "removing stale contents from \u0027D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\x86\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "created folder \u0027D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\x86\u0027"
+  },
+  {
+    "level": "INFO",
+    "message": "executing ndkBuild Executable : C:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dD:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "Executable : C:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd\narguments : \nNDK_PROJECT_PATH\u003dnull\nAPP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk\nAPP_ABI\u003dx86\nNDK_ALL_ABIS\u003dx86\nNDK_DEBUG\u003d1\nAPP_PLATFORM\u003dandroid-16\nNDK_OUT\u003dD:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/debug/obj\nNDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\lib\nAPP_SHORT_COMMANDS\u003dfalse\nLOCAL_SHORT_COMMANDS\u003dfalse\n-B\n-n\njvmArgs : \n\n"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed with problem. Exception: Build command failed.\nError while executing process C:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd with arguments {NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk APP_ABI\u003dx86 NDK_ALL_ABIS\u003dx86 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\lib APP_SHORT_COMMANDS\u003dfalse LOCAL_SHORT_COMMANDS\u003dfalse -B -n}\nAndroid NDK: ERROR:D:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk:laz_lib: LOCAL_SRC_FILES points to a missing file    \nAndroid NDK: Check that D:/AndroidStudioProjects/testjni/app/src/main/jni/../lazarus/liblaz_lib.so exists  or that its path is correct   \n\nprocess_begin: CreateProcess(NULL, \"\", ...) failed.\nC:/Android/sdk/ndk-bundle/build//../build/core/prebuilt-library.mk:45: *** Android NDK: Aborting    .  Stop.\n"
+  }
+]

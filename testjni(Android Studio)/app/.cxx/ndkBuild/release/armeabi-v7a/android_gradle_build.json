@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\lib clean"
+  ],
+  "buildTargetsCommand": "C:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "cwrappas-release-armeabi-v7a": {
+      "buildCommand": "C:\\Android\\sdk\\ndk-bundle\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dD:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003dD:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003dD:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\lib D:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libcwrappas.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "cwrappas",
+      "files": [
+        {
+          "src": "D:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\cwrappas.c",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot C:/Android/sdk/ndk-bundle/build//../toolchains/llvm/prebuilt/windows-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -ID:/AndroidStudioProjects/testjni/app/src/main/jni -DANDROID -Werror -fPIC -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "D:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\release\\obj\\local\\armeabi-v7a\\libcwrappas.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "C:\\Android\\sdk\\ndk-bundle\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

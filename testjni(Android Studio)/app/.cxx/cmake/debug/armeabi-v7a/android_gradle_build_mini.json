@@ -1,0 +1,21 @@
+{
+  "buildFiles": [
+    "D:\\AndroidStudioProjects\\testjni\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "c:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "laz_lib-Debug-armeabi-v7a": {
+      "artifactName": "laz_lib",
+      "abi": "armeabi-v7a",
+      "output": "d:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jniLibs\\armeabi-v7a\\liblaz_lib.so"
+    },
+    "cwrappas-Debug-armeabi-v7a": {
+      "artifactName": "cwrappas",
+      "buildCommand": "c:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\cmake\\debug\\armeabi-v7a --target cwrappas",
+      "abi": "armeabi-v7a",
+      "output": "D:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libcwrappas.so"
+    }
+  }
+}

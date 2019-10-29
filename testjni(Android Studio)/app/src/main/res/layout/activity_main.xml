@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonClear"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
+    
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/hello_world" />
+
+    <Button
+        android:id="@+id/buttonIsomeFunction"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IsomeFunction(bare c)" />
+
+    <Button
+        android:id="@+id/buttonVoidVoidFunction"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VoidFunction(pas)" />
+
+    <Button
+        android:id="@+id/buttonDoubleToInt"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Double2Int(pas)" />
+    
+    <Button
+        android:id="@+id/buttonIntArrayMultiply"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IntArrayMultiply(pas)" />
+    
+    <Button
+        android:id="@+id/buttonDoubleArrayMultiply"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DoubleArrayMultiply(pas)" />
+    
+    <Button
+        android:id="@+id/buttonLoadBinLib"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LoadBinLib(pas)" />
+    
+    
+    
+</LinearLayout>

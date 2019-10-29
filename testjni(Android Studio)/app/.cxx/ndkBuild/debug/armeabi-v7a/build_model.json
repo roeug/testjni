@@ -1,0 +1,57 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\AndroidStudioProjects\\testjni",
+      "sdkFolder": "c:\\Android\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\AndroidStudioProjects\\testjni\\app",
+      "makeFile": "D:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jni\\Android.mk",
+      "buildSystem": "NDK_BUILD",
+      "compilerSettingsCacheFolder": "D:\\AndroidStudioProjects\\testjni\\.cxx",
+      "cxxFolder": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx",
+      "ndkFolder": "c:\\Android\\sdk\\ndk-bundle",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "D:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\lib",
+    "objFolder": "D:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local",
+    "jsonFolder": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug",
+    "gradleBuildOutputFolder": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a",
+  "jsonFile": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\cxx\\debug\\armeabi-v7a",
+  "objFolder": "D:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a",
+  "buildCommandFile": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_command.txt",
+  "buildOutputFile": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_output.txt",
+  "modelOutputFile": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\build_model.json",
+  "jsonGenerationLoggingRecordFile": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\ndkBuild\\debug\\armeabi-v7a\\compile_commands.json"
+}

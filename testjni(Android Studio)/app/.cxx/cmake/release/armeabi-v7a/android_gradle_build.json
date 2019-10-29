@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "D:/AndroidStudioProjects/testjni/app/src/main/cpp/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"c:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"cwrappas-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "cwrappas",
+			"buildCommand" : "c:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\AndroidStudioProjects\\testjni\\app\\.cxx\\cmake\\release\\armeabi-v7a --target cwrappas",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dcwrappas_EXPORTS  -fPIC -Oz -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/AndroidStudioProjects/testjni/app/src/main/cpp/cwrappas.c",
+					"workingDirectory" : "D:/AndroidStudioProjects/testjni/app/.cxx/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/AndroidStudioProjects/testjni/app/build/intermediates/cmake/release/obj/armeabi-v7a/libcwrappas.so",
+			"toolchain" : "1629680541"
+		},
+		"laz_lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "laz_lib",
+			"buildType" : "release",
+			"output" : "d:/AndroidStudioProjects/testjni/app/src/main/jniLibs/armeabi-v7a/liblaz_lib.so",
+			"toolchain" : "1629680541"
+		}
+	},
+	"toolchains" : 
+	{
+		"1629680541" : 
+		{
+			"cCompilerExecutable" : "C:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

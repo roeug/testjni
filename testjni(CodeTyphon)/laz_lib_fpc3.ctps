@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Release"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="laz_lib_fpc3.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="113"/>
+        <UsageCount Value="124"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value=""/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\typhon\lcl\interfaces\cocoa\agl.pp"/>
+        <FRMtype Value="0"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="20"/>
+        <UsageCount Value="10"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="laz_lib_fpc3.pas"/>
+      </Position1>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

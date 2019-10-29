@@ -1,0 +1,11 @@
+C:/Android/sdk/ndk-bundle/build//../build/core/build-binary.mk:666: Android NDK: Module cwrappas depends on undefined modules: laz_lib    
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:42: error: undefined reference to 'pas_void_void'
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:49: error: undefined reference to 'pas_double2int'
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:58: error: undefined reference to 'pas_intvardouble'
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:66: error: undefined reference to 'pas_int2double'
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:73: error: undefined reference to 'pas_double2double'
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:80: error: undefined reference to 'pas_loadbinlib'
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:90: error: undefined reference to 'pas_intarraymult'
+D:/AndroidStudioProjects/testjni/app/src/main/jni/cwrappas.c:107: error: undefined reference to 'pas_doublearraymult'
+clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+make: *** [D:/AndroidStudioProjects/testjni/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libcwrappas.so] Error 1

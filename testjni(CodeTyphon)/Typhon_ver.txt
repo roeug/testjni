@@ -1,0 +1,4 @@
+Typhon ver: 6.9
+Typhon revision: 61912
+FPC ver: 3.3.1
+FPC revision: 42912

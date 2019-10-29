@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    sourceSets.main {
+        jni.srcDirs = []
+    }
+
+    defaultConfig {
+        applicationId "org.testjni.android"
+        minSdkVersion 16
+        targetSdkVersion 28
+
+        ndk {
+            abiFilters "armeabi-v7a" /* "armeabi-v7a"  "armeabi"  */
+            moduleName "liblaz_lib"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+//            path file('CMakeLists.txt')  // in app - was
+// d:/AndroidStudioProjects/testjni/app/src/main/cpp/CMakeLists.txt'
+            path file('src/main/cpp/CMakeLists.txt')
+
+        }
+    }
+
+}
+
+dependencies {
+//    implementation 'com.android.support:support-v4:18.+'
+}
