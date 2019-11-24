@@ -9,7 +9,7 @@
     "laz_lib-Release-armeabi-v7a": {
       "artifactName": "laz_lib",
       "abi": "armeabi-v7a",
-      "output": "d:\\AndroidStudioProjects\\testjni\\app\\src\\main\\jniLibs\\armeabi-v7a\\liblaz_lib.so"
+      "output": "D:\\AndroidStudioProjects\\testjni\\app\\src\\main\\cpp\\..\\jniLibs\\armeabi-v7a\\liblaz_lib.so"
     },
     "cwrappas-Release-armeabi-v7a": {
       "artifactName": "cwrappas",

@@ -1,5 +1,3 @@
 # ninja log v5
-1	1175	0	CMakeFiles/cwrappas.dir/cwrappas.c.o	60c4d92d7f491029
-4	816	0	D:/AndroidStudioProjects/testjni/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libcwrappas.so	1ee912280c50960d
-3	1236	0	CMakeFiles/cwrappas.dir/cwrappas.c.o	60c4d92d7f491029
-1236	2492	0	D:/AndroidStudioProjects/testjni/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libcwrappas.so	1ee912280c50960d
+1	1300	0	CMakeFiles/cwrappas.dir/cwrappas.c.o	60c4d92d7f491029
+1301	2060	0	D:/AndroidStudioProjects/testjni/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libcwrappas.so	4b956963f3f79713

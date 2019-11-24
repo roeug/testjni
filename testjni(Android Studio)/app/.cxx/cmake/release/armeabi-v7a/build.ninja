@@ -47,10 +47,10 @@ build CMakeFiles/cwrappas.dir/cwrappas.c.o: C_COMPILER__cwrappas D$:/AndroidStud
 #############################################
 # Link the shared library D:\AndroidStudioProjects\testjni\app\build\intermediates\cmake\release\obj\armeabi-v7a\libcwrappas.so
 
-build D$:/AndroidStudioProjects/testjni/app/build/intermediates/cmake/release/obj/armeabi-v7a/libcwrappas.so: C_SHARED_LIBRARY_LINKER__cwrappas CMakeFiles/cwrappas.dir/cwrappas.c.o | d$:/AndroidStudioProjects/testjni/app/src/main/jniLibs/armeabi-v7a/liblaz_lib.so
+build D$:/AndroidStudioProjects/testjni/app/build/intermediates/cmake/release/obj/armeabi-v7a/libcwrappas.so: C_SHARED_LIBRARY_LINKER__cwrappas CMakeFiles/cwrappas.dir/cwrappas.c.o | D$:/AndroidStudioProjects/testjni/app/src/main/cpp/../jniLibs/armeabi-v7a/liblaz_lib.so
   LANGUAGE_COMPILE_FLAGS = -fPIC -Oz -DNDEBUG
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
-  LINK_LIBRARIES = d:/AndroidStudioProjects/testjni/app/src/main/jniLibs/armeabi-v7a/liblaz_lib.so -latomic -lm
+  LINK_LIBRARIES = D:/AndroidStudioProjects/testjni/app/src/main/cpp/../jniLibs/armeabi-v7a/liblaz_lib.so -latomic -lm
   OBJECT_DIR = CMakeFiles\cwrappas.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

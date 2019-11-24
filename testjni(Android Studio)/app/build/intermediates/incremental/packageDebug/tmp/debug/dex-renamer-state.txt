@@ -1,4 +1,4 @@
-#Sat Oct 12 12:56:10 SAMT 2019
+#Sun Nov 24 13:50:06 SAMT 2019
 base.0=D\:\\AndroidStudioProjects\\testjni\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
